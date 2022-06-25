@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<remote  name="r9" fetch="https://gitlab.com/R9Lab"/>
+    <remote  name="r" fetch="https://github.com/PixelExperience-Devices"/>
+   
+    <project path="device/xiaomi/lava" name="DeviceTree" remote="r9" revision="12.1"/>
+    <project path="device/xiaomi/mt6768-common" name="CommonDeviceTree" remote="r9" revision="twelve"/>
+	<project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="r" revision="twelve"/>
+    <project path="vendor/xiaomi/lava" name="VendorTree" remote="r9" revision="twelve"/>
+    <project path="vendor/xiaomi/mt6768-ims" name="ImsVendor" remote="r9" revision="twelve"/>
+    <project path="device/mediatek/sepolicy_vndr" name="SepolicyVendor" remote="r9" revision="twelve"/>
+</manifest>
