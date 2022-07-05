@@ -5,6 +5,8 @@
   <remote  name="r9" fetch="https://gitlab.com/R9Lab"/>
   <remote  name="r" fetch="https://github.com/PixelExperience-Devices"/>
   <remote  name="rr" fetch="https://github.com/Redmi-MT6768"/>
+  <remote  name="rrr" fetch="https://github.com/PixelExperience"/>
+  <remote  name="clang" fetch="https://github.com/kdrag0n"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="DeviceTree" remote="r9" revision="riceDroid-12.1"/>
@@ -19,9 +21,11 @@
   
  <!-- Extras -->
   <project path="device/mediatek/sepolicy_vndr" name="SepolicyVendor" remote="r9" revision="twelve"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
+  <project path="vendor/apps" name="AppsVendor" remote="r9" revision="12.1"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="PixelPlusUI/frameworks_opt_telephony" remote="github" revision="sv2"/>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rrr" revision="twelve"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="PixelPlusUI/frameworks_opt_net_ims" remote="github" revision="sv2"/>
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="rrr" revision="twelve"/>
 
 </manifest>
