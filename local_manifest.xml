@@ -23,6 +23,8 @@
   <project path="device/mediatek/sepolicy_vndr" name="SepolicyVendor" remote="r9" revision="twelve"/>
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
   <project path="vendor/apps" name="AppsVendor" remote="r9" revision="12.1"/>
+  <remove-project name="platform/external/tinyxml"/>
+  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="github" revision="arrow-12.0"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rrr" revision="twelve"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
