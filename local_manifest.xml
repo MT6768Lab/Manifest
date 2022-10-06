@@ -14,10 +14,11 @@
   <project path="kernel/xiaomi/mt6768" name="LightningPlus" remote="me" revision="12.1"/>
   <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="rrr" revision="lineage-20"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="r" revision="next/arrow-13.0"/>
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="rrr" revision="lineage-20.0"/>
   
  <!-- Extras -->
+  <remove-project name="android_device_mediatek_sepolicy_vndr"/>
   <remove-project name="platform/packages/modules/Bluetooth"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="rrr" revision="lineage-20.0"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rr" revision="13.0"/>
 
 </manifest>
