@@ -11,7 +11,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
   <remove-project name="LineageOS/android_packages_modules_Bluetooth"/>
   <remove-project name="platform/system/bpf"/>
-  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rr" revision="13.0"/>
+  <project path="packages/modules/Bluetooth" name="PixelExperience/packages_modules_Bluetooth" remote="github" revision="thirteen"/>
   <project path="system/bpf" name="kaikeEXE/system_bpf" remote="github" revision="thirteen"/>
 
 </manifest>
