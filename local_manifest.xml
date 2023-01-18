@@ -2,8 +2,8 @@
 <manifest>
 
  <!-- Sources -->
-  <project path="device/xiaomi/lancelot" name="R9Lab/DeviceTree" remote="gitlab" revision="ProtonPlus-13" clone-depth="1"/>
-  <project path="device/xiaomi/mt6768-common" name="R9Lab/CommonDeviceTree" remote="gitlab" revision="13" clone-depth="1"/>
+  <project path="device/xiaomi/lancelot" name="R9Lab/DeviceTree" remote="gitlab" revision="PalyrimOS-13" clone-depth="1"/>
+  <project path="device/xiaomi/mt6768-common" name="R9Lab/CommonDeviceTree" remote="gitlab" revision="LineageOS-13" clone-depth="1"/>
   <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="vendor/xiaomi" name="R9Lab/VendorTree" remote="gitlab" revision="13" clone-depth="1"/>
   <project path="hardware/mediatek" name="mt6768-dev/android_hardware_mediatek" remote="github" revision="lineage-20" clone-depth="1"/>
@@ -11,6 +11,8 @@
   <project path="vendor/Remove_Packages" name="R9Lab/RemovePackages" remote="gitlab" revision="13" clone-depth="1"/>
   <project path="packages/app/ImsService" name="mt6768-dev/ImsService" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="packages/apps/MtkFMRadio" name="mt6768-dev/android_packages_apps_MtkFMRadio" remote="github" revision="lineage-20" clone-depth="1"/>
+  <remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="R9Lab/BluetoothModule" remote="gitlab" revision="lineage-20.0" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" clone-depth="1"/>
 
 </manifest>
