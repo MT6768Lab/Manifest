@@ -8,6 +8,7 @@
   <project path="vendor/xiaomi" name="R9Lab/VendorTree" remote="gitlab" revision="13" clone-depth="1"/>
   <project path="hardware/mediatek" name="mt6768-dev/android_hardware_mediatek" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="device/mediatek/sepolicy_vndr" name="mt6768-dev/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20" clone-depth="1"/>
+  <project path="vendor/Remove_Packages" name="R9Lab/RemovePackages" remote="gitlab" revision="13" clone-depth="1"/>
   <project path="packages/app/ImsService" name="mt6768-dev/ImsService" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="packages/apps/MtkFMRadio" name="mt6768-dev/android_packages_apps_MtkFMRadio" remote="github" revision="lineage-20" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="gitlab" revision="main" clone-depth="1"/>
