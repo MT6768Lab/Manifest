@@ -22,8 +22,10 @@
   <remove-project name="crdroidandroid/android_frameworks_native"/>
   <remove-project name="crdroidandroid/android_packages_apps_Updater"/>
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA"/>
+  <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni"/>
   <project path="frameworks/native" name="orkunsdumps/crdroid_frameworks_native" remote="github" revision="13.0" clone-depth="1"/>
   <project path="packages/apps/Updater" name="orkunergun/android_packages_apps_Updater" remote="github" revision="13.0" clone-depth="1"/>
   <project path="vendor/crDroidOTA" name="orkunergun/ota_provider" remote="github" revision="13.0" clone-depth="1"/>
 
-</manifest>
+</manifest>  
