@@ -19,12 +19,18 @@
   <project path="vendor/gms" name="dlwlrma123/vendor_google_pixel" remote="clang" revision="thirteen" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-azure" name="Panchajanya1999/azure-clang" remote="clang" revision="main" clone-depth="1"/>
   <remove-project name="crdroidandroid/android_frameworks_native"/>
+  <remove-project name="crdroidandroid/android_frameworks_base"/>
+  <remove-project name="crdroidandroid/android_vendor_addons"/>
+  <remove-project name="crdroidandroid/android_packages_apps_Settings"/>
   <remove-project name="crdroidandroid/android_packages_apps_Updater"/>
   <remove-project name="crdroidandroid/android_vendor_crDroidOTA"/>
   <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni"/>
   <project path="packages/apps/FMRadio" name="orkunsdumps/FMRadio" remote="github" revision="lineage-20.0" clone-depth="1"/>
   <project path="frameworks/native" name="orkunsdumps/crdroid_frameworks_native" remote="github" revision="13.0" clone-depth="1"/>
+  <project path="vendor/addons" name="orkunsdumps/cr_vendor_addons" remote="github" revision="13.0" clone-depth="1"/>
+  <project path="packages/apps/Settings" name="orkunsdumps/cr_packages_apps_Settings" remote="github" revision="13.0" clone-depth="1"/>
+  <project path="frameworks/base" name="orkunsdumps/cr_frameworks_base" remote="github" revision="13.0" clone-depth="1"/>
   <project path="packages/apps/Updater" name="orkunergun/android_packages_apps_Updater" remote="github" revision="13.0" clone-depth="1"/>
   <project path="vendor/crDroidOTA" name="orkunergun/ota_provider" remote="github" revision="13.0" clone-depth="1"/>
 
