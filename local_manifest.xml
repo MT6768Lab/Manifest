@@ -17,11 +17,5 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20" clone-depth="1"/>
   <project path="vendor/Remove_Packages" name="RemovePackages.git" remote="R9" revision="LineageOS" clone-depth="1"/>
   <project path="vendor/gapps" name="GMS" remote="R9" revision="13" clone-depth="1"/>
-  <remove-project name="crdroidandroid/android_vendor_crDroidOTA"/>
-  <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_libfmjni"/>
   <project path="prebuilts/tools-leaf" name="LeafOS-Project/android_prebuilts_tools-leaf" remote="github" revision="leaf-2.0" clone-depth="1"/>
-  <project path="packages/apps/FMRadio" name="orkunsdumps/FMRadio" remote="github" revision="lineage-20.0" clone-depth="1"/>
-  <project path="vendor/crDroidOTA" name="orkunergun/ota_provider" remote="github" revision="13.0" clone-depth="1"/>
-
 </manifest> 
