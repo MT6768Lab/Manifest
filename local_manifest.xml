@@ -2,7 +2,7 @@
 <manifest>
   
 <remote name="R9"
-        fetch="https://68orkun:ankara06@gitlab.com/R9Lab"/>
+        fetch="https://orkunergun:ankara06@gitlab.com/MT6768Lab"/>
 <remote name="clang" 
         fetch="https://gitlab.com"/>
 <remote name="los" 
