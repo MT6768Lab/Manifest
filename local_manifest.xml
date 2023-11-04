@@ -12,6 +12,8 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="github/LineageOS" revision="lineage-20" clone-depth="1"/>
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="github/LineageOS" revision="lineage-20.0" clone-depth="1"/>
   <remove-project name="device/google/felix"/>
+  <remove-project name="device/google/lynx"/>
+  <remove-project name="device/google/tangorpro"/>
   <remove-project name="platform/packages/apps/Camera2"/>
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="github/LineageOS" revision="lineage-20.0" clone-depth="1"/>
 </manifest>
