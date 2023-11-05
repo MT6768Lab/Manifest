@@ -5,13 +5,11 @@
 <remote name="kernel" fetch="https://github.com/orkunergun"/>
 
 <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="DeviceTree.git" remote="R9" revision="13" clone-depth="1"/>
+  <project path="device/xiaomi/lancelot" name="DeviceTree.git" remote="R9" revision="xDroidOSS-13" clone-depth="1"/>
   <project path="device/xiaomi/lancelot-kernel" name="PrebuiltKernel.git" remote="kernel" revision="13" clone-depth="1"/>
   <project path="vendor/xiaomi/lancelot" name="VendorTree.git" remote="R9" revision="13" clone-depth="1"/>
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="github/LineageOS" revision="lineage-20" clone-depth="1"/>
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="github/LineageOS" revision="lineage-20" clone-depth="1"/>
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="github/LineageOS" revision="lineage-20.0" clone-depth="1"/>
-  <remove-project name="device/google/felix"/>
-  <remove-project name="device/google/tangorpro"/>
-  <remove-project name="platform/packages/apps/Camera2"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="lineage" revision="lineage-20" clone-depth="1"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="lineage" revision="lineage-20" clone-depth="1"/>
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" revision="lineage-20.0" clone-depth="1"/>
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" revision="lineage-20.0" clone-depth="1"/>
 </manifest>
