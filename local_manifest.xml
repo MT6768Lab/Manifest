@@ -10,4 +10,8 @@
   <project path="vendor/xiaomi/lancelot" name="VendorTree.git" remote="R9" revision="13" clone-depth="1"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" clone-depth="1"/>
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="LOS" revision="lineage-20" clone-depth="1"/>
+  <remove-project name="crdroidandroid/android_packages_apps_Updater"/>
+  <remove-project name="crdroidandroid/android_vendor_crDroidOTA"/>
+  <project path="packages/apps/Updater" name="orkunergun/android_packages_apps_Updater" remote="github" revision="13.0" clone-depth="1"/>
+  <project path="vendor/crDroidOTA" name="orkunergun/ota_provider" remote="github" revision="13.0" clone-depth="1"/>
 </manifest>
