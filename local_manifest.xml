@@ -10,6 +10,8 @@
   <project path="kernel/xiaomi/mt6768" name="KernelTree.git" remote="R9" revision="14" clone-depth="1"/>
   <project path="vendor/xiaomi" name="VendorTree.git" remote="R9" revision="13" clone-depth="1"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="los" revision="lineage-20" clone-depth="1"/>
+  <remove-project name="packages_modules_Connectivity"/>
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity-old" remote="PixelOS" revision="thirteen" clone-depth="1"/>
   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" clone-depth="1"/>
 </manifest>
