@@ -14,4 +14,5 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity-old" remote="PixelOS" revision="thirteen" clone-depth="1"/>
   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" clone-depth="1"/>
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
 </manifest>
