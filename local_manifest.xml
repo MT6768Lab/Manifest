@@ -12,4 +12,9 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" clone-depth="1"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="los" revision="lineage-20" clone-depth="1"/>
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" clone-depth="1"/>
+  <remove-project name="build_soong"/>
+  <project path="build/soong" name="hbuild_soong" remote="los" revision="tithonia" clone-depth="1" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 </manifest>
