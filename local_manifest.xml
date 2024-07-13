@@ -10,4 +10,5 @@
   <project path="kernel/xiaomi/mt6768" name="KernelTree.git" remote="R9" revision="14" clone-depth="1"/>
   <project path="vendor/xiaomi/lancelot" name="VendorTree.git" remote="R9" revision="14" clone-depth="1"/>
   <project path="vendor/xiaomi/mt6768-common" name="CommonVendorTree.git" remote="R9" revision="14" clone-depth="1"/>
+  <project path="vendor/lineage-priv" name="Keys.git" remote="R9" revision="crDroid-13" clone-depth="1"/>
 </manifest>
