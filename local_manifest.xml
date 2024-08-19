@@ -9,8 +9,6 @@
   <project path="device/xiaomi/mt6768-common" name="CommonDeviceTree.git" remote="R9" revision="13" clone-depth="1"/>
   <project path="kernel/xiaomi/mt6768" name="KernelTree.git" remote="R9" revision="13" clone-depth="1"/>
   <project path="vendor/xiaomi" name="VendorTree.git" remote="R9" revision="13" clone-depth="1"/>
-  <project path="vendor/lmodroid-priv" name="Keys.git" remote="R9" revision="crDroid-13" clone-depth="1"/>
-  <project path="vendor/lineage-priv" name="Keys.git" remote="R9" revision="crDroid-13" clone-depth="1"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" clone-depth="1"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="los" revision="lineage-20" clone-depth="1"/>
 </manifest>
