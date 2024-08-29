@@ -3,6 +3,7 @@
   
 <remote name="R9" fetch="https://gitlab.com/MT6768Lab"/>
 <remote name="los" fetch="https://github.com/orkunsdumps"/>
+<remote name="github" fetch="https://github.com"/>
 
 <!-- Device Trees -->
   <project path="device/xiaomi/lancelot" name="DeviceTree.git" remote="R9" revision="LMODroid-13" clone-depth="1"/>
