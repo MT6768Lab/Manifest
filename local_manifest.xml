@@ -15,11 +15,4 @@
   <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr"/>
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" clone-depth="1"/>
   <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
-  <remove-project name="build_soong"/>
-  <project path="build/soong" name="pos_build_soong" remote="los" revision="thirteen" clone-depth="1">
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <remove-project name="vendor_aosp"/>
-  <project path="vendor/aosp" name="pos_vendor_aosp" remote="los" revision="thirteen" clone-depth="1"/>
 </manifest>
