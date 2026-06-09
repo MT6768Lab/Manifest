@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<remote name="R9" fetch="https://gitlab.com/MT6768Lab"/>
+<remote name="R9" fetch="https://github.com/MT6768Lab"/>
 <remote name="los" fetch="https://github.com/orkunsdumps"/>
 
 <!-- Device Trees -->
@@ -14,4 +14,8 @@
   <project path="hardware/mediatek" name="hardware_mtk" remote="los" revision="lineage-21" clone-depth="1"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="pixelbuilds" revision="unity" clone-depth="1"/>
   <project path="packages/apps/RevampedFMRadio" name="orkunergun/RevampedFMRadio" remote="github" revision="mtk"/>
+  <remove-project name="android_frameworks_av"/>
+  <remove-project name="android_frameworks_native"/>
+  <project path="frameworks/av" name="pb_frameworks_av" remote="los" revision="infinity-oss" clone-depth="1"/>
+  <project path="frameworks/native" name="pb_frameworks_native" remote="los" revision="infinity-oss" clone-depth="1"/>
 </manifest>
