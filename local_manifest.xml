@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-<remote name="R9" fetch="https://gitlab.com/MT6768Lab"/>
+<remote name="R9" fetch="https://github.com/MT6768Lab"/>
 <remote name="los" fetch="https://github.com/orkunsdumps"/>
 
 <!-- Device Trees -->
